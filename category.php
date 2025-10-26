@@ -132,12 +132,14 @@ $current_category = get_category($conn, $id);
 								<?php } ?>
 							<br></b></i>
 						</p>
+						<!--
                        <a href="uploads/files/<?=$book['file']?>"
                           class="btn btn-success">Open</a>
 
                         <a href="uploads/files/<?=$book['file']?>"
                           class="btn btn-primary"
                           download="<?=$book['title']?>">Download</a>
+						-->
 					</div>
 				</div>
 				<?php } ?>

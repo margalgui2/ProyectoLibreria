@@ -126,7 +126,7 @@ $categories = get_all_categories($conn);
 						</p>
                        <a href="uploads/files/<?=$book['file']?>"
                           class="btn btn-success">Open</a>
-
+						
                         <a href="uploads/files/<?=$book['file']?>"
                           class="btn btn-primary"
                           download="<?=$book['title']?>">Download</a>
